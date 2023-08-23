@@ -1,3 +1,5 @@
+/* eslint-disable camelcase */
+/* eslint-disable object-curly-newline */
 const mapDBToModel = ({ id, title, body, tags, created_at, updated_at, username }) => ({
   id,
   title,

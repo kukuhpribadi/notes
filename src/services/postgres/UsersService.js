@@ -1,9 +1,10 @@
+/* eslint-disable no-underscore-dangle */
 const { Pool } = require('pg');
-const InvariantError = require('../../exceptions/InvariantError');
 const { nanoid } = require('nanoid');
 const bcrypt = require('bcrypt');
 const NotFoundError = require('../../exceptions/NotFoundError');
 const AuthenticationError = require('../../exceptions/AuthenticationError');
+const InvariantError = require('../../exceptions/InvariantError');
 
 class UsersService {
   constructor() {
